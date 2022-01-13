@@ -1,0 +1,51 @@
+#navbar-main{
+    background-color:  lightblue;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-ul{
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.navbar-ul li{
+    margin-right: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+body{
+    background-image: linear-gradient(to right, red,yellow);
+    
+}
+body h3{
+    margin: 2%;
+    text-align: center;
+    justify-content: center;
+}
+.food-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.food-card-ind{
+    background-color: white;
+    width: 200%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.image-styler{
+    width: 210px;
+    height: 250px;
+}
+.food-card-text{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding-top: 2px;
+}
+.page-heading{
+    padding-bottom: 100px;
+}
